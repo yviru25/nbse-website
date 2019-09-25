@@ -3084,6 +3084,10 @@ body.mac .dropcap {
 	font-size: 15px;
 	text-align: justify;
 }
+.body-title{
+	font-family: sans-serif;
+    font-size: larger;
+}
 .text-bold{
 	font-size: 16px;
     font-weight: 600;
