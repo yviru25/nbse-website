@@ -26,6 +26,7 @@
     
     <!-- Animation Style -->
     <link rel="stylesheet" type="text/css" href="../stylesheets/animate.css">
+    <link rel="stylesheet" href="contact-us.css">
 
     <!-- Favicon and touch icons  -->
     <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
@@ -56,7 +57,8 @@
                     <div class="header-wrap clearfix">
                         <div id="logo" class="logo">
                             <a href="../index.html" rel="home">
-                                <img src="../assets/NBSE LOGO 2.png" />
+                                <img src="../assets/NBSE LOGO 2.png" alt="image">
+                                
                             </a>
                         </div><!-- /.logo -->
 
@@ -68,10 +70,10 @@
                                     <li class="home">
                                         <a href="/">ABOUT US</a>
                                         <ul class="submenu">
-                                            <li><a href="about-nbse.html">NBSE</a></li>
-                                            <li><a href="advisory-commeti.html">Advisory Committee</a></li>
-                                            <li><a href="importance-of-nbse.html">Importance of NBSE</a></li>
-                                            <li><a href="subject.html">Subjects</a></li>
+                                            <li><a href="../about/about-nbse.html">NBSE</a></li>
+                                            <li><a href="../about/advisory-commeti.html">Advisory Committee</a></li>
+                                            <li><a href="../about/importance-of-nbse.html">Importance of NBSE</a></li>
+                                            <li><a href="../about/subject.html">Subjects</a></li>
                                           
                                         </ul>
                                     </li>
@@ -80,7 +82,7 @@
                                         <ul class="submenu">
                                            <li><a href="http://nbse.org.in/nbse_admin/">New Student Registration</a></li>
                                             <li><a href="/">School Registration</a></li>
-                                            <li><a href="../registration/registration-fee.html">Registration Fees</a></li>
+                                            <li><a href="registration-fee.html">Registration Fees</a></li>
                                             <li><a href="/">Student Registration Form</a></li>
                                         </ul>
                                     </li> 
@@ -110,10 +112,10 @@
                                            <li><a href="/">Awards and Recoginition</a></li>
                                            <li><a href="/">Award Ceremony Pics</a></li>
                                         </ul>
-                                    </li>
+                                    </li> 
                                     <li>
-                                        <a href="../contact/contact-us.html">Contact Us</a>
-                                    </li>                                       
+                                        <a href="contact-us.html">Contact Us</a>
+                                    </li>                                     
                                 </ul>
                             </nav>
                         </div>
@@ -123,29 +125,124 @@
         </header><!-- /.header -->
         <div class="banner-area pt-130 pb-120 overlay-2">
             <div>
-              <img src="../assets/nbse-images/nbse-slider/nbse.png" class="img-responsive" alt="Responsive image" " alt="" />
+             <!--  <img src="../assets/nbse-images/nbse-slider/nbse.png" class="img-responsive" alt="Responsive image" " alt="" /> -->
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3501.4907855340457!2d77.240987!3d28.64502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcdf0d75e223%3A0x6eef81c69ba8f205!2sDaryaganj%2C%20New%20Delhi%2C%20Delhi%20110002!5e0!3m2!1sen!2sin!4v1569470567570!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div> 
         </div>      
 
  <!-- ========================= Main Body ================================== -->       
-<div class="container">
+ <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="page-title-heading">
-                      <h2 class="text-ceter">About NBSE</h2>  
+                      <h2 class="text-ceter">Contact Us</h2>  
                 </div>
                 <div class="body-title">
-                        NBSE is a panel of CBSE Experts who are having experience of creating and checking Question Papers as 
-                        per CBSE norms. NBSE conducts three sets of question papers designed for the applicants of classes 
-                        9th & 10th to give them the Realtime Experience of CBSE Board Examination. It prepares 
-                        the students to appear in CBSE Board Exams more confidently and to achieve BEST results. 
-                        NBSE conducts exams in 7 subjects i.e., English, Mathematics, Science, Social Science, Hindi A, 
-                        Hindi B and Sanskrit.    
-                </div>
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                
+                                <div class="col-sm-12 col-md-12 col-lg-8">
+                                    
+                                    <h2 class="section-heading text-left mb-5">
+                                        Get in Touch
+                                    </h2>
+                                    <p>Please let us know how we can help!</p>
+                                    <form action="#" class="form-contact" id="contactForm">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="p_name" placeholder="First Name" required>
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="p_email" placeholder="Last Name" required="">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" required id="p_subject" placeholder="E-Mail">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required class="form-control" id="p_phone" maxlength="10" placeholder="Mobile Number">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                             <textarea id="p_message" required class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="text-left">
+                                                <div id="success"></div>
+                                                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                                            </div>
+                                        </div>
+                                    </form>	
+                
+                                    
+                                </div>
+                
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <h4 class="section-heading text-left mb-5">
+                                        CONTACT DETAILS
+                                    </h4>
+                                    <!-- Item 1 -->
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Address</h4>
+                                            <p>9, Daryaganj, Near LIC Office, New Delhi – 110002</p>
+                                        </div>
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Phone</h4>
+                                            <p>011-43776600</p>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Email</h4>
+                                            <p>info@orangeeducation.in</p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-whatsapp"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Whatsapp</h4>
+                                            <p>8588814859</p>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                 </div>     
+                </div>     
             </div>
         </div>
-    </div><!-- /.container -->   
-    <br/>
+</div><!-- /.container -->  
 
 
 
@@ -161,7 +258,7 @@
                           <div class="col-md-6  widget widget-nav-menu">
                                 <div class=" widget-inner">
                                     <h2 class="widget-title maincolor1">
-                                        <img src="../assets/NBSE LOGO 2.png" />
+                                            <img src="../assets/NBSE LOGO 2.png" alt="image">
                                     </h2>
                                     <div class="menu-law-business-container">
                                         <ul id="menu-law-business" class="menu">
