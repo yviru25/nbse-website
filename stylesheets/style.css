@@ -3076,6 +3076,10 @@ body.mac .dropcap {
     filter: alpha(opacity=70);
 } */
 
+#logo-text{
+	font-weight: bold;
+	color: white;
+}
 
 .text-ceter{
 	text-align: center;
