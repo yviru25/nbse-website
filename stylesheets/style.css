@@ -639,7 +639,9 @@ input[type="color"],
 	   -moz-transition: all 0.3s linear;
 	    -ms-transition: all 0.3s linear;
 	     -o-transition: all 0.3s linear;
-	        transition: all 0.3s linear;
+			transition: all 0.3s linear;
+	height: 80px;		
+
 }
 
 #mainnav ul {
@@ -649,7 +651,7 @@ input[type="color"],
 
 #mainnav > ul > li {
 	float: left;
-	height: 100px;
+	height: 80px;
 }
 
 #mainnav > ul > li > a {
