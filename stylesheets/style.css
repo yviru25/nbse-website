@@ -3095,6 +3095,28 @@ body.mac .dropcap {
     font-weight: 600;
 }
 
+.flat-button.btn-cart {
+    color: #fff;
+    display: block;
+    line-height: 45px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+	background: #e2a477;
+	text-align: center;
+}
+.flat-button {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.flat-button.btn-cart:hover:after, .flat-button.v2.btn-cart:hover:after, .flat-button.btn-cart:hover, .flat-button.v2.btn-cart:hover {
+	color: #fff;
+	background-color: #337ab7;
+}
+
+
 
 /* icon-list */
 .gdlr-core-icon-list-item ul{ margin-left: 0px; list-style: none; margin-bottom: 0px; }
