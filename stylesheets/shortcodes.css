@@ -39,7 +39,7 @@
 	clear: both;
     display: block;
     position: relative;
-    /* padding: 80px 0;     */
+    padding: 80px 0;   
 }
 
 .flat-row.no-padding {
@@ -50,9 +50,9 @@
     padding-bottom: 0;
 }
 
-/* .flat-row.padding-top {
+.flat-row.padding-top {
     padding: 95px 0 0;
-} */
+}
 
 /* Flat divider
 -------------------------------------------------------------- */
